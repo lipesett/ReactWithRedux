@@ -6,11 +6,17 @@ import React from "react";
 import './index.css';
 // ADDING COMPONENTS
 import First from "./components/basics/First";
+import WithParams from "./components/basics/WithParams";
 
 
 const element = document.getElementById('root');
 ReactDOM.render(
     <div>
         <First></First>
+        <WithParams
+            title="student situation"
+            student="James Smaug"
+            note={9.1}>
+        </WithParams>
     </div>,
     element);
