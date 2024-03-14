@@ -9,5 +9,5 @@
 
 Stacks used:<br>
 NodeJS;<br>
-MongoDB<br>
+MongoDB;<br>
 React
